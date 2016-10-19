@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三栏式布局之流式布局</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .wrapper{
+            width: 80%;
+            margin: 0 auto;
+            text-align: left;
+            background: #eee;
+            max-width: 125em;
+            min-width: 62em;
+        }
+        .content{
+            overflow: hidden;
+        }
+        .content .primary{
+            width: 72%;
+            float: right;
+            display: inline;
+        }
+        .content .secondary{
+            width: 25%;
+            float: left;
+            display: inline;
+        }
+        .content .primary .primary{
+            width: 60%;
+            float: left;
+            display: inline;
+        }
+        .content .primary .secondary{
+            width: 35%;
+            padding-right: 2%;
+            float: right;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        1
+    </div>
+    <div class="content">
+        <div class="primary">
+            <div class="primary">
+
+            </div>
+            <div class="secondary">
+
+            </div>
+        </div>
+        <div class="secondary">
+
+        </div>
+    </div>
+    <div class="footer">
+
+    </div>
+</div>
+</body>
+</html>

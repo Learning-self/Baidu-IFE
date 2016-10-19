@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三栏式布局-固定宽度的布局</title>
+    <style>
+        body{
+            text-align: center;//这是为了兼容混杂模式中的IE5和IE6不支持margin:auto声明
+        }
+        .wrapper{
+            width: 920px;
+            margin: 0 auto;
+            text-align: left;
+            background: #02A0FF;
+        }
+        <!--为浮动元素的父元素使用溢出方法，从而清理浮动元素-->
+        .content{
+            overflow: hidden;
+        }
+        .content .primary{
+            width: 650px;
+            background: #1e90ff;
+            float: right;
+            display: inline;
+        }<!--这里使用为所有浮动元素使用display：inline；预防IE中的双外边距浮动产生的BUG-->
+        .content .secondary{
+            width: 200px;
+            float: left;
+            display: inline;
+        }
+        .content .primary .primary{
+            width: 400px;
+            background: #0000FF;
+            float: left;
+            display: inline;
+        }
+        .content .primary .secondary{
+            width: 230px;
+            background: #000a28;
+            padding-right: 20px;
+            float: right;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            Your header content goes here!
+        </div>
+        <div class="content">
+            <!--Your page content goes here!-->
+            <div class="primary">
+                <div class="primary">
+                    Your primary primary content goes here!
+                </div>
+                <div class="secondary">
+                    Your secondary primary content goes here!
+                </div>
+            </div>
+            <div class="secondary">
+                navigation and secondary content goes here!
+            </div>
+        </div>
+        <div class="footer">
+            Your footer content goes here!
+        </div>
+    </div>
+</body>
+</html>

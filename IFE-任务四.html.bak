@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IFE-任务四</title>
+	<style>
+		#Rec{
+			width:100px;
+			height:100px;
+			background:red;
+			border-radius:100px 0 0 0;
+		}
+		#rad1,#rad2{
+			width:50px;
+			height:50px;
+			background:yellow;
+		}
+		#rad1{
+			border-radius:0 0 50px 0;
+		}
+		#rad2{
+			border-radius:50px 0 0 0;
+		}
+	</style>
+</head>
+<body>
+<div id="wrapper">
+    <div id="content">
+		<div id="Rec">
+			<div id="rad1"></div>
+			<div id="rad2"></div>
+		</div>
+    </div>
+</div>
+</body>
+</html>

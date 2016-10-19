@@ -1,0 +1,537 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: #FFFFFF;
+    font-family: "Microsoft YaHei";
+    color: #FFFFFF;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.wrapper{
+    width: 1280px;
+    margin: 0 auto;
+}
+.header{
+    width: 1280px;
+    height: 56px;
+    position: relative;
+
+}
+#logo{
+    position: absolute;
+    left: 50px;
+    top: 1px;
+}
+.header h3{
+    font-size: 21px;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+}
+.header ul{
+    list-style: none;
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 130px;
+}
+.header ul li{
+    display: inline-block;
+    font-size: 14px;
+}
+.header li a{
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+}
+.header ul a:hover{
+    color: #e74f4d;
+    border-bottom: 2px solid #e74f4d;
+}
+.load img{
+    position: absolute;
+    top: 5px;
+    right: 85px;
+}
+.load span{
+    font-size: 14px;
+    position: absolute;
+    top: 22px;
+    right: 70px;
+}
+/*主体内容*/
+.content{
+    position: relative;
+}
+.banner{
+    width: 1280px;
+    height: 745px;
+    background: url("../images/2.jpg");
+}
+.banner_1{
+    position: absolute;
+    top: 230px;
+    left: 120px;
+}
+.banner h3{
+    font-size: 60px;
+}
+.banner p{
+    width: 320px;
+    font-size: 21px;
+    margin-top: 10px;
+}
+.banner_1 a{
+    display: inline-block;
+    width: 320px;
+    height: 40px;
+    margin-top: 60px;
+    background: #e74f4d;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 0px;
+}
+/*内容第一部分*/
+.section_1{
+    color: #000000;
+}
+.section_1 ul{
+    list-style: none;
+}
+.section_1 ul li{
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    padding: 55px;
+
+}
+.section_1 img{
+    padding: 20px 10px;
+}
+.section_1 p{
+    padding-top: 10px;
+}
+.cut_off{
+    display: inline-block;
+    width: 1px;
+    height: 40px;
+    background: #000000;
+}
+/*内容第二部分*/
+.section_2{
+    width: 1280px;
+    height: 360px;
+    background: #ededec;
+    text-align: center;
+}
+.section_2 img{
+    padding-top: 70px;
+}
+.section_2 h1{
+    padding-top: 40px;
+    color: #8f8f8f;
+}
+/*内容第三部分*/
+.section_3{
+    width: 1280px;
+    height: 350px;
+    background: url("../images/6.jpg");
+    text-align: center;
+}
+.section_3 h3{
+    padding-top: 60px;
+    font-size: 21px;
+}
+.section_3 hr{
+    width: 30px;
+    height: 2px;
+    background: #FFFFFF;
+    margin: 10px auto;
+}
+.section_3 p{
+    padding-top: 10px;
+    font-size: 12px;
+}
+.section_3 ul{
+    list-style: none;
+    padding-top: 60px;
+}
+.section_3 ul li{
+    display: inline-block;
+    width: 280px;
+    height: 40px;
+}
+
+.select{
+    display: inline-block;
+    width: 230px;
+    height: 40px;
+    font-size: 12px;
+    color: #a8aaaa;
+}
+.search{
+    background: #bf4f49;
+    width: 230px;
+    height: 40px;
+    margin-left: 27px;
+}
+#search{
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+}
+/*内容第三部分*/
+.section_4{
+    width: 1280px;
+    height: 600px;
+    background: #f8f8f7;
+    color: #000000;
+    font-size: 21px;
+    text-align: center;
+}
+.section_4 img{
+    width: 200px;
+    height: 300px;
+    padding: 5px;
+    margin: 5px 0;
+    background: #FFFFFF;
+}
+.section_4 img:hover{
+    background: #5c5c5d;
+}
+.section_4 ul{
+    list-style: none;
+}
+.section_4 li{
+    display: inline-block;
+    width: 210px;
+    height: 320px;
+    margin: 80px 20px;
+}
+.section_4 p{
+    font-size: 12px;
+    color: #8f8f8f;
+    margin-top: 5px;
+}
+/*内容第四部分*/
+.section_5{
+    font-size: 22px;
+    color: #000000;
+    position: relative;
+}
+.section_5 .up_l{
+    width: 850px;
+    height: 560px;
+    color: #FFFFFF;
+    text-align: center;
+    background: url("../images/9.jpg");
+}
+.section_5 .up_l h3{
+    font-size: 50px;
+    padding-top: 150px;
+    margin-bottom: -30px;
+}
+.section_5 .up_l h1{
+    font-size: 157px;
+}
+.section_5 .up_l h5{
+    font-size: 21px;
+    font-weight: lighter;
+    padding: 5px;
+}
+.section_5 .up_r{
+    width: 400px;
+    height: 560px;
+    text-align: center;
+    float: right;
+    position: relative;
+}
+.section_5 .up_r p{
+    width: 250px;
+    margin: 20px auto;
+    font-size: 12px;
+    color: #D1C5DA;
+}
+.section_5 .up_r:first-child{
+    margin-top: 200px;
+}
+.section_5 .up_r span{
+    color: #bf4f49;
+}
+.boder_reg{
+    width: 100px;
+    margin: 50px auto;
+    color: #bf4f49;
+    border: 1px solid #bf4f49;
+}
+.boder_reg:hover{
+    background: #bf4f49;
+    color: #FFFFFF;
+}
+.section_5 ul{
+    list-style: none;
+}
+.section_5 ul li{
+    display: inline-block;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+.selected{
+    background: rgba(0,0,0,0.5);
+}
+.circle:hover{
+    background:  rgba(0,0,0,0.5);
+}
+.down{
+    width: 850px;
+    height: 520px;
+    text-align: center;
+    position: relative;
+}
+.down_l,.down_m{
+    width: 425px;
+    height: 340px;
+    position: absolute;
+    top: 0px;
+}
+.down_l,.down_m{
+    padding-top: 180px;
+}
+.down_l{
+    left: 0px;
+    background: #bf4f49;
+}
+.down_m{
+    right: 0px;
+}
+.down_l div,.down_m div{
+    width: 30px;
+    height: 2px;
+    margin: 20px auto;
+    background: #FFFFFF;
+}
+.down_m div{
+    background: #000000;
+}
+.down h4{
+    font-size: 21px;
+    color: #FFFFFF;
+}
+.down_m h4{
+    color: #000000;
+}
+#boder_reg_r{
+    color: #bf4f49;
+}
+.boder_reg_l{
+    width: 100px;
+    margin: 10px auto;
+    border: 1px solid #FFFFFF;
+}
+.boder_reg_l:hover{
+    color: #bf4f49;
+    background: #FFFFFF;
+    border: 1px solid #bf4f49;
+}
+#boder_reg_r{
+    width: 100px;
+    margin: 10px auto;
+    color: #bf4f49;
+    border: 1px solid #bf4f49;
+}
+#boder_reg_r:hover{
+    color: #FFFFFF;
+    background: #bf4f49;
+}
+.down_r{
+    position: absolute;
+    right: 0px;
+    bottom: -5px;
+}
+.down_r img{
+    width: 430px;
+    height: 520px;
+}
+/*内容第五部分*/
+.section_6{
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+}
+.join_us{
+    width: 1280px;
+    margin: 100px auto;
+}
+.join_us h4{
+    font-size: 21px;
+    margin: 20px 0px;
+}
+.join_us p{
+    width: 400px;
+    margin: 0 auto;
+    color: #8f8f8f;
+
+}
+.table_l{
+    width: 280px;
+    height: 280px;
+    text-align: left;
+    margin-left: 140px;
+    color: #8f8f8f;
+
+}
+.section_6 img{
+    width: 8px;
+    height: 8px;
+    margin-right: 5px;
+    margin-bottom: -2px;
+}
+.table_l h5{
+    font-size: 14px;
+    margin-top: 10px;
+    color: #000000;
+}
+.table_l a{
+    display: inline-block;
+    margin: 5px 0;
+    margin-left: 225px;
+    color: #8f8f8f;
+}
+#last{
+    margin: 0px;
+    margin-left: 225px;
+}
+/*表格样式*/
+.table_r{
+    width: 640px;
+    height: 280px;
+    float: right;
+
+}
+.cell{
+    width: 250px;
+    float: left;
+    text-align: right;
+    background: #8f8f8f;
+    margin-bottom: 15px;
+}
+#des{
+    width: 498px;
+    height: 100px;
+    float: left;
+}
+.btn{
+    width: 500px;
+    height: 20px;
+    background: #8f8f8f;
+    float: left;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+/*footer部分*/
+.foot_up{
+    width: 1280px;
+    text-align: center;
+    background: #32363e;
+}
+.foot_up h4{
+    font-size: 21px;
+    padding-top: 60px;
+
+}
+.foot_up p{
+    width: 400px;
+    font-size: 12px;
+    margin: 10px auto;
+}
+.foot_up textarea{
+    width: 340px;
+    height: 30px;
+    margin: 0 auto;
+    border: none;
+}
+#email{
+    color: #FFFFFF;
+    background: #8f8f8f;
+    text-align: left;
+    font-size: 21px;
+    width: 400px;
+    height: 30px;
+    margin:  0 auto;
+    position: relative;
+}
+#email span{
+    position: absolute;
+    top: 0px;
+    right: 8px;
+}
+.foot_up ul{
+    list-style: none;
+}
+.foot_up li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    margin-top: 20px;
+}
+.foot_up img{
+    width: 40px;
+    height: 40px;
+}
+.foot_down{
+    width: 1280px;
+    height: 100px;
+    background: #303039;
+    position: relative;
+}
+.foot_down h6{
+    font-size: 12px;
+    position: absolute;
+    left: 100px;
+    bottom: 30px;
+}
+.foot_down p{
+    font-size: 12px;
+    position: absolute;
+    right: 100px;
+    bottom: 20px;
+}
+/*------------------------------------
+未实现的技术难点：
+1、鼠标划过时，图片和文字的位置互换，同时格式也有相应变化；
+2、对于选择框和输入框：选择框开始时有文字内容；表单输入框的name和value是在同一个条框中出现的；
+3、下拉菜单各选项的高度和样式怎么设置？
+4、位于图片上的小三角形状如何实现？
+
+*/
+/*三角形的实现*/
+#triggle_l{
+    width: 0;
+    height: 0;
+    border: 25px solid red;
+    border-color: transparent #FFFFFF  transparent transparent;
+    position:absolute;
+    bottom: 450px;
+    left: -80px;
+}
+#triggle_r{
+    width: 0;
+    height: 0;
+    border: 25px solid red;
+    border-color: transparent  transparent transparent #FFFFFF;
+    position:absolute;
+    bottom: 250px;
+    left: 0px;
+
+}
